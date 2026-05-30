@@ -58,7 +58,7 @@ read -p "Enter AWS Secret Access Key: " AWS_SECRET_ACCESS_KEY
 echo ""
 
 read -p "Enter AWS Region [ap-south-1]: " AWS_REGION
-AWS_REGION=${AWS_REGION:-ap-south-1}
+AWS_REGION=${AWS_REGION:-us-east-1}
 
 read -p "Enter AWS Output Format [json]: " AWS_OUTPUT
 AWS_OUTPUT=${AWS_OUTPUT:-json}
