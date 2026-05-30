@@ -35,8 +35,8 @@ provider "kubectl" {
 data "terraform_remote_state" "eks" {
   backend = "s3"
   config = {
-    bucket = "my-terraform-state-suryaa"
+    bucket = "terraform-s3-slr"
     key    = "state.tfstate"
-    region = "ap-south-2"
+    region = "us-east-1"
   }
 }
