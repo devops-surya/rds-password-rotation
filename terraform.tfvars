@@ -1,4 +1,4 @@
-aws_region           = "ap-south-2"
+aws_region           = "us-east-1"
 project_name         = "myapp"
 rds_instance_id      = "myapp-database"
 rds_master_username  = "admin"
