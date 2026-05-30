@@ -19,9 +19,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket       = "my-terraform-state-suryaa"
+    bucket       = "terraform-s3-slr"
     key          = "k8s-state.tfstate"
-    region       = "ap-south-2"
+    region       = "us-east-1"
     use_lockfile = "false"
   }
 }
